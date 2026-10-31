@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chakra-fin</title>
+  <meta name="description" content="Chakra-fin: personal expense tracking from bank transaction emails.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Chakra-fin</h1>
+    <p>Chakra-fin is a personal finance tool that tracks your expenses automatically.
+      It reads bank transaction alert emails (for example, "debited" notifications) from
+      your Gmail account, pulls out the amount, merchant and date, and sorts each
+      transaction into an expense category.</p>
+
+    <h2>How it uses Google data</h2>
+    <ul>
+      <li>It asks for <strong>read-only</strong> Gmail access
+        (<code>https://www.googleapis.com/auth/gmail.readonly</code>).</li>
+      <li>It only searches for transaction alert emails. It never sends, deletes or changes your email.</li>
+      <li>The transaction details it extracts are stored only to show you your expense history.</li>
+    </ul>
+
+    <p>
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="terms.html">Terms of Service</a>
+    </p>
+
+    <footer>Contact: <a href="mailto:hiprajeeshere@gmail.com">hiprajeeshere@gmail.com</a></footer>
+  </main>
+</body>
+</html>
